@@ -1,0 +1,10 @@
+article{color: blue; }
+div li {list-style: none;}
+a:link, a:visited {
+    text-decoration-line: none;
+    background-color: lawngreen;
+    border: 1px solid blue;
+    color: brown;
+    
+    }
+a:hover, a:active {background-color: rgb(72, 80, 83); font-size: 24px;}  
