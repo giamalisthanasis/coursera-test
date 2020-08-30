@@ -1,6 +1,7 @@
 
 * {box-sizing: border-box;}
 
+
 h1 {text-align: center;margin-bottom: 15px;}
 
 p {
@@ -32,7 +33,7 @@ section {
 #chicken {
   border: 1px solid black;
   text-align: center;
-  width: 40%;
+  width: 150px;
   float:right;
   font-size: 125%;
   margin: 0;
@@ -42,7 +43,7 @@ section {
 #beef {
   border: 1px solid black;
   text-align: center;
-  width: 40%;
+  width: 150px;
   float:right;
   font-size: 125%;
   margin: 0;
@@ -53,7 +54,7 @@ section {
 #sushi {
   border: 1px solid black;
   text-align: center;
-  width: 40%;
+  width: 150px;
   float:right;
   font-size: 125%;
   margin: 0;
@@ -63,6 +64,7 @@ section {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
+    margin: auto;
   }
 
   .col-lg-1 {
